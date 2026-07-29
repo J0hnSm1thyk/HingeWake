@@ -1,0 +1,40 @@
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Local app bundles and archives
+dist/
+*.app
+*.zip
+
+# Xcode and editor state
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.vscode/
+.idea/
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.key
+*.mobileprovision
+
+# Logs, reports, caches, and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*.plist.tmp
+.hermes/
+/tmp/
